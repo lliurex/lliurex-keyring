@@ -4,7 +4,7 @@
 # see: dh_installdeb(1)
 set -e
 DIR=/usr/share/keyrings
-KEYRINGNAME="lliurex-archive-keyring.gpg"
+KEYRINGNAME="lliurex-archive-keyring-udeb.gpg"
 if [ ! -e $DIR/archive-lliurex.gpg ]; then
     ln -s $KEYRINGNAME $DIR/archive-lliurex.gpg
 fi
