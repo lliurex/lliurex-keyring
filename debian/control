@@ -1,0 +1,15 @@
+Source: lliurex-keyring
+Section: admin
+Priority: optional
+Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://www.lliurex.net
+
+Package: lliurex-keyring
+Architecture: all
+Priority: important
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GnuPG keys of the Lliurex archive
+ The LliureX project digitally signs its Release files. This package
+ contains the archive keys used for that.
