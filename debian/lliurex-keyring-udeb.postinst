@@ -1,0 +1,10 @@
+#!/bin/sh
+# postinst script for lliurex-keyring
+#
+# see: dh_installdeb(1)
+set -e
+DIR=/usr/share/keyrings
+KEYRINGNAME="lliurex-archive-keyring.gpg"
+if [ ! -e $DIR/archive-lliurex.gpg ]; then
+    ln -s $KEYRINGNAME $DIR/archive-lliurex.gpg
+fi
