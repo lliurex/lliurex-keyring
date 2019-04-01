@@ -1,1 +1,2 @@
 keyrings/* /usr/share/keyrings/
+keyrings/lliurex-archive-keyring-gpg.gpg /etc/apt/trusted.gpg.d/
