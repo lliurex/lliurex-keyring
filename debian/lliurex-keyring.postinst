@@ -36,7 +36,7 @@ if [ ! -f $ETC_KEYRING ]; then
     chmod 0644 $ETC_KEYRING
 fi
 
-if [ -n "$GPG" -a "$GPG" != " " -n "$APTKEY" -a "$APTKEY" != " " ]; then
+if [ -n "$GPG" -a "x$GPG" != "x" -a -n "$APTKEY" -a "x$APTKEY" != "x" ]; then
     $GPG --import /usr/share/keyrings/$KEYRINGNAME || true 
     $GPG --armor --export 38970B2B | $APTKEY add - || true
 
