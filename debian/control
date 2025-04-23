@@ -14,12 +14,12 @@ Description: GnuPG keys of the Lliurex archive
  The LliureX project digitally signs its Release files. This package
  contains the archive keys used for that.
 
-Package: lliurex-keyring-udeb
-Package-Type: udeb
-Priority: standard
-Architecture: all
-Section: debian-installer
-Recommends: gpgv-udeb
-Description: GnuPG keys of the Ubuntu archive
- The LliureX project digitally signs its Release files. This package
- contains the archive keys used for that.
+#Package: lliurex-keyring-udeb
+#Package-Type: udeb
+#Priority: standard
+#Architecture: all
+#Section: debian-installer
+#Recommends: gpgv-udeb
+#Description: GnuPG keys of the Ubuntu archive
+# The LliureX project digitally signs its Release files. This package
+# contains the archive keys used for that.
