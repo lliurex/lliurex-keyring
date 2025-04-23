@@ -1,3 +1,9 @@
+lliurex-keyring (0.5) noble; urgency=medium
+
+  * New public key 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 23 Apr 2025 11:31:51 +0200
+
 lliurex-keyring (0.4) noble; urgency=medium
 
   * Noble release 
